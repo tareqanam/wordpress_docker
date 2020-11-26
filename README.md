@@ -1,7 +1,8 @@
 # Wordpress docker-compose example
 wordpress, mysql and phpmyadmin docker-compose.yml example
 ##How to use it aka Quickstart
-## Prerequisite
+
+### Prerequisite
 you must have installed docker and docker engine on your machine to run this docker-compose.yml.
  Here's an installation reference
 ```
@@ -24,7 +25,7 @@ https://docs.docker.com/engine/install/ubuntu/
     ```
     :~/wordpress_docker$ sudo docker-compose up
     ```
-3. To run in detached mode: Run containers in the background:
+3. To run in detached mode: Use '-d' to run containers in the background 
     
     ```
     :~/wordpress_docker$ sudo docker-compose up -d
